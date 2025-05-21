@@ -1,6 +1,6 @@
 {
   "__resolveType": "site/apps/deco/ra-trustvox.ts",
   "numberOfReviewsInStoreCarousel": 7,
-  "enableStaging": true,
+  "enableStaging": false,
   "storeId": "5238"
 }
