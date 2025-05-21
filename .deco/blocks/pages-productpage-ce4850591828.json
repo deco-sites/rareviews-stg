@@ -64,6 +64,12 @@
       "section": {
         "__resolveType": "Footer"
       }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "ra-trustvox/sections/TrustvoxRateConfig.tsx"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
