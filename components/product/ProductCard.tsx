@@ -11,6 +11,7 @@ import WishlistButton from "../wishlist/WishlistButton.tsx";
 import AddToCartButton from "./AddToCartButton.tsx";
 import { Ring } from "./ProductVariantSelector.tsx";
 import { useId } from "../../sdk/useId.ts";
+import TrustvoxShelfRate from "apps/ra-trustvox/components/TrustvoxShelfRate.tsx"
 
 interface Props {
   product: Product;
@@ -174,6 +175,8 @@ function ProductCard({
           </span>
         </div>
       </a>
+
+      <TrustvoxShelfRate productId={product.productID} />
 
       {/* SKU Selector */}
       {variants.length > 1 && firstVariantName !== shoeSizeVariant && (

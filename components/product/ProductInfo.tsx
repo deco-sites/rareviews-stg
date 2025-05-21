@@ -10,6 +10,7 @@ import WishlistButton from "../wishlist/WishlistButton.tsx";
 import AddToCartButton from "./AddToCartButton.tsx";
 import OutOfStock from "./OutOfStock.tsx";
 import ProductSelector from "./ProductVariantSelector.tsx";
+import TrustvoxProductDetailsRate from "apps/ra-trustvox/components/TrustvoxProductDetailsRate.tsx";
 
 interface Props {
   page: ProductDetailsPage | null;
@@ -97,6 +98,8 @@ function ProductInfo({ page }: Props) {
           {formatPrice(listPrice, offers?.priceCurrency)}
         </span>
       </div>
+
+      <TrustvoxProductDetailsRate productId={product.productID} />
 
       {/* Sku Selector */}
       {hasValidVariants && (
