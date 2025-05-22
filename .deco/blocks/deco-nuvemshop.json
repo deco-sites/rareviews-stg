@@ -1,0 +1,11 @@
+{
+  "__resolveType": "site/apps/deco/nuvemshop.ts",
+  "accessToken": {
+    "__resolveType": "website/loaders/secret.ts",
+    "encrypted": "a34e3e3edad426da73d64232b0411b518e863ef9c29d09767076b2d40889e4a8",
+    "name": "NUVEMSHOP_TOKEN"
+  },
+  "platform": "nuvemshop",
+  "publicUrl": "https://demoreclameaqui..lojavirtualnuvem.com.br/",
+  "storeId": "5238"
+}
